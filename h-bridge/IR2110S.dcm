@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0  Date: Sat 23 Nov 2013 03:42:29 PM EET
+#
+$CMP IR2110S
+D VMOS Driver
+K VMOS
+F ir/ir2110.pdf
+$ENDCMP
+#
+#End Doc Library

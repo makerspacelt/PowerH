@@ -1,0 +1,54 @@
+EESchema-DOCLIB  Version 2.0  Date: Sat 28 Dec 2013 08:36:45 PM EET
+#
+$CMP CONN_1x2
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP CONN_1x3
+D Generic connector 3 pins
+K CONN
+$ENDCMP
+#
+$CMP CONN_1x5
+D Generic connector 5 pins
+K CONN
+$ENDCMP
+#
+$CMP GENERIC_CAPACITOR
+D Capacitor
+K CAPACITOR
+$ENDCMP
+#
+$CMP GENERIC_CAPACITOR_POLAR
+D Condensateur polarise
+$ENDCMP
+#
+$CMP GENERIC_DIODE
+D Diode simple
+K DEV DIODE
+$ENDCMP
+#
+$CMP GENERIC_RESISTOR
+D Resistor
+K R RESISTOR DEV
+$ENDCMP
+#
+$CMP IR2110S
+D VMOS Driver
+K VMOS
+F ir/ir2110s.pdf
+$ENDCMP
+#
+$CMP LM78xx
+D Linear Positive Regulator
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP NPN_CBE
+D NPN Transistor
+K NPN Transistor
+$ENDCMP
+#
+#End Doc Library

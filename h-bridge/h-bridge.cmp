@@ -1,0 +1,430 @@
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Fri 24 Jan 2014 11:19:14 PM EET
+
+BeginCmp
+TimeStamp = /52BF1437;
+Reference = C1;
+ValeurCmp = 0.1U;
+IdModule  = h-bridge_SMD_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF1462;
+Reference = C2;
+ValeurCmp = 0.1U;
+IdModule  = h-bridge_SMD_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF144C;
+Reference = C3;
+ValeurCmp = 220U_16V;
+IdModule  = h-bridge_CAPACITOR_POLAR_2.5x6.3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF146D;
+Reference = C4;
+ValeurCmp = 0.1U;
+IdModule  = h-bridge_SMD_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF1470;
+Reference = C5;
+ValeurCmp = 100U_16V;
+IdModule  = h-bridge_CAPACITOR_POLAR_2.5x6.3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF28F2;
+Reference = C6;
+ValeurCmp = 0.1U;
+IdModule  = h-bridge_CAPACITOR_C1-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF149D;
+Reference = C7;
+ValeurCmp = 0.1U;
+IdModule  = h-bridge_SMD_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF14AB;
+Reference = C8;
+ValeurCmp = 220U_63V;
+IdModule  = h-bridge_CAPACITOR_POLAR_5x10;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF14A0;
+Reference = C9;
+ValeurCmp = 0.1U;
+IdModule  = h-bridge_SMD_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF1488;
+Reference = C10;
+ValeurCmp = 100U_16V;
+IdModule  = h-bridge_CAPACITOR_POLAR_2.5x6.3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF14A2;
+Reference = C11;
+ValeurCmp = 0.1U;
+IdModule  = h-bridge_SMD_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF148B;
+Reference = C12;
+ValeurCmp = 0.1U;
+IdModule  = h-bridge_SMD_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF14A3;
+Reference = C13;
+ValeurCmp = 0.1U;
+IdModule  = h-bridge_SMD_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF14A4;
+Reference = C14;
+ValeurCmp = 0.1U;
+IdModule  = h-bridge_SMD_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF14B0;
+Reference = C15;
+ValeurCmp = 220U_16V;
+IdModule  = h-bridge_CAPACITOR_POLAR_2.5x6.3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF0CA5;
+Reference = D1;
+ValeurCmp = UF4007;
+IdModule  = h-bridge_DIODE_DO-41;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF0CC2;
+Reference = D2;
+ValeurCmp = UF4007;
+IdModule  = h-bridge_DIODE_DO-41;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF0CC4;
+Reference = D3;
+ValeurCmp = UF4007;
+IdModule  = h-bridge_DIODE_DO-41;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF0CE1;
+Reference = D4;
+ValeurCmp = MBR10100;
+IdModule  = h-bridge_DIODE_TO220AC_vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF0CF9;
+Reference = D5;
+ValeurCmp = MBR10100;
+IdModule  = h-bridge_DIODE_TO220AC_vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF0D09;
+Reference = D6;
+ValeurCmp = MBR10100;
+IdModule  = h-bridge_DIODE_TO220AC_vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF0CFC;
+Reference = D7;
+ValeurCmp = MBR10100;
+IdModule  = h-bridge_DIODE_TO220AC_vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF0CD5;
+Reference = D8;
+ValeurCmp = UF4007;
+IdModule  = h-bridge_DIODE_DO-41;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF0CD7;
+Reference = D9;
+ValeurCmp = UF4007;
+IdModule  = h-bridge_DIODE_DO-41;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF0CC8;
+Reference = D10;
+ValeurCmp = UF4007;
+IdModule  = h-bridge_DIODE_DO-41;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF1A52;
+Reference = F1;
+ValeurCmp = FUSE;
+IdModule  = h-bridge_FUSE_5-20;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF15DF;
+Reference = P1;
+ValeurCmp = CTRL;
+IdModule  = h-bridge_CONN_2.54_1x5;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF18A9;
+Reference = P2;
+ValeurCmp = SHUNT;
+IdModule  = h-bridge_CONN_2.54_1x3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BEFAD2;
+Reference = P3;
+ValeurCmp = POWER;
+IdModule  = h-bridge_CONN_2-of-3-screw-pins;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BEFAC9;
+Reference = P4;
+ValeurCmp = MOTOR;
+IdModule  = h-bridge_CONN_2-of-3-screw-pins;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF04EE;
+Reference = Q1;
+ValeurCmp = BC337-40;
+IdModule  = h-bridge_TO92;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF05F1;
+Reference = Q2;
+ValeurCmp = IRFB3806;
+IdModule  = h-bridge_TO220AB_vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF0614;
+Reference = Q3;
+ValeurCmp = IRFB3806;
+IdModule  = h-bridge_TO220AB_vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF0617;
+Reference = Q4;
+ValeurCmp = IRFB3806;
+IdModule  = h-bridge_TO220AB_vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF0618;
+Reference = Q5;
+ValeurCmp = IRFB3806;
+IdModule  = h-bridge_TO220AB_vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF04C9;
+Reference = Q6;
+ValeurCmp = BC337-40;
+IdModule  = h-bridge_TO92;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF1272;
+Reference = R1;
+ValeurCmp = 1K;
+IdModule  = h-bridge_RESISTOR_0.25w_10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF1241;
+Reference = R2;
+ValeurCmp = 1K;
+IdModule  = h-bridge_RESISTOR_0.25w_10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF1274;
+Reference = R3;
+ValeurCmp = 1K;
+IdModule  = h-bridge_RESISTOR_0.25w_10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF1276;
+Reference = R4;
+ValeurCmp = 1K;
+IdModule  = h-bridge_RESISTOR_0.25w_10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF1278;
+Reference = R5;
+ValeurCmp = 1K;
+IdModule  = h-bridge_RESISTOR_0.25w_10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF12DA;
+Reference = R6;
+ValeurCmp = 10R;
+IdModule  = h-bridge_RESISTOR_0.25w_10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF12DC;
+Reference = R7;
+ValeurCmp = 10R;
+IdModule  = h-bridge_RESISTOR_0.25w_10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF12E0;
+Reference = R8;
+ValeurCmp = 1K;
+IdModule  = h-bridge_RESISTOR_0.25w_10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF12E2;
+Reference = R9;
+ValeurCmp = 1K;
+IdModule  = h-bridge_RESISTOR_0.25w_10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF12EC;
+Reference = R10;
+ValeurCmp = 1K;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF12EF;
+Reference = R11;
+ValeurCmp = 1K;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF12F4;
+Reference = R12;
+ValeurCmp = 0.01R_2W;
+IdModule  = h-bridge_RESISTOR_2w_20mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF12A3;
+Reference = R13;
+ValeurCmp = 1K;
+IdModule  = h-bridge_RESISTOR_0.25w_10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF12B5;
+Reference = R14;
+ValeurCmp = 1K;
+IdModule  = h-bridge_RESISTOR_0.25w_10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF12D1;
+Reference = R15;
+ValeurCmp = 10R;
+IdModule  = h-bridge_RESISTOR_0.25w_10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF12BC;
+Reference = R16;
+ValeurCmp = 10R;
+IdModule  = h-bridge_RESISTOR_0.25w_10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF129B;
+Reference = R17;
+ValeurCmp = 1K;
+IdModule  = h-bridge_RESISTOR_0.25w_10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF129A;
+Reference = R18;
+ValeurCmp = 1K;
+IdModule  = h-bridge_RESISTOR_0.25w_10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF128A;
+Reference = R19;
+ValeurCmp = 1K;
+IdModule  = h-bridge_RESISTOR_0.25w_10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF1298;
+Reference = R20;
+ValeurCmp = 1K;
+IdModule  = h-bridge_RESISTOR_0.25w_10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF1296;
+Reference = R21;
+ValeurCmp = 1K;
+IdModule  = h-bridge_RESISTOR_0.25w_10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E2B058;
+Reference = R22;
+ValeurCmp = 0R;
+IdModule  = h-bridge_RESISTOR_0.25w_10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF19A9;
+Reference = U1;
+ValeurCmp = IR2110S;
+IdModule  = h-bridge_SO16L;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BED11C;
+Reference = U2;
+ValeurCmp = LM7812;
+IdModule  = h-bridge_TO220AB_vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BF19B5;
+Reference = U3;
+ValeurCmp = IR2110S;
+IdModule  = h-bridge_SO16L;
+EndCmp
+
+EndListe

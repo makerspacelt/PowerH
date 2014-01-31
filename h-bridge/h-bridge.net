@@ -1,0 +1,470 @@
+# EESchema Netlist Version 1.1 created  Fri 24 Jan 2014 11:19:14 PM EET
+(
+ ( /52BF1437 h-bridge_SMD_0805 C1 0.1U
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /52BF1462 h-bridge_SMD_0805 C2 0.1U
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /52BF144C h-bridge_CAPACITOR_POLAR_2.5x6.3 C3 220U_16V
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /52BF146D h-bridge_SMD_0805 C4 0.1U
+  ( 1 N-000003 )
+  ( 2 /MOT2 )
+ )
+ ( /52BF1470 h-bridge_CAPACITOR_POLAR_2.5x6.3 C5 100U_16V
+  ( 1 N-000003 )
+  ( 2 /MOT2 )
+ )
+ ( /52BF28F2 h-bridge_CAPACITOR_C1-1 C6 0.1U
+  ( 1 /MOT2 )
+  ( 2 /MOT1 )
+ )
+ ( /52BF149D h-bridge_SMD_0805 C7 0.1U
+  ( 1 +36V )
+  ( 2 GND )
+ )
+ ( /52BF14AB h-bridge_CAPACITOR_POLAR_5x10 C8 220U_63V
+  ( 1 +36V )
+  ( 2 GND )
+ )
+ ( /52BF14A0 h-bridge_SMD_0805 C9 0.1U
+  ( 1 +36V )
+  ( 2 GND )
+ )
+ ( /52BF1488 h-bridge_CAPACITOR_POLAR_2.5x6.3 C10 100U_16V
+  ( 1 N-000004 )
+  ( 2 N-000030 )
+ )
+ ( /52BF14A2 h-bridge_SMD_0805 C11 0.1U
+  ( 1 +12V )
+  ( 2 GND )
+ )
+ ( /52BF148B h-bridge_SMD_0805 C12 0.1U
+  ( 1 N-000004 )
+  ( 2 N-000030 )
+ )
+ ( /52BF14A3 h-bridge_SMD_0805 C13 0.1U
+  ( 1 +12V )
+  ( 2 GND )
+ )
+ ( /52BF14A4 h-bridge_SMD_0805 C14 0.1U
+  ( 1 +12V )
+  ( 2 GND )
+ )
+ ( /52BF14B0 h-bridge_CAPACITOR_POLAR_2.5x6.3 C15 220U_16V
+  ( 1 +12V )
+  ( 2 GND )
+ )
+ ( /52BF0CA5 h-bridge_DIODE_DO-41 D1 UF4007
+  ( A +12V )
+  ( K N-000003 )
+ )
+ ( /52BF0CC2 h-bridge_DIODE_DO-41 D2 UF4007
+  ( A N-000026 )
+  ( K N-000008 )
+ )
+ ( /52BF0CC4 h-bridge_DIODE_DO-41 D3 UF4007
+  ( A N-000002 )
+  ( K N-000032 )
+ )
+ ( /52BF0CE1 h-bridge_DIODE_TO220AC_vertical D4 MBR10100
+  ( A /MOT2 )
+  ( K +36V )
+ )
+ ( /52BF0CF9 h-bridge_DIODE_TO220AC_vertical D5 MBR10100
+  ( A /PGND )
+  ( K /MOT2 )
+ )
+ ( /52BF0D09 h-bridge_DIODE_TO220AC_vertical D6 MBR10100
+  ( A /MOT1 )
+  ( K +36V )
+ )
+ ( /52BF0CFC h-bridge_DIODE_TO220AC_vertical D7 MBR10100
+  ( A /PGND )
+  ( K /MOT1 )
+ )
+ ( /52BF0CD5 h-bridge_DIODE_DO-41 D8 UF4007
+  ( A N-000027 )
+  ( K N-000028 )
+ )
+ ( /52BF0CD7 h-bridge_DIODE_DO-41 D9 UF4007
+  ( A N-000017 )
+  ( K N-000007 )
+ )
+ ( /52BF0CC8 h-bridge_DIODE_DO-41 D10 UF4007
+  ( A +12V )
+  ( K N-000004 )
+ )
+ ( /52BF1A52 h-bridge_FUSE_5-20 F1 FUSE
+  ( 1 N-000015 )
+  ( 2 +36V )
+ )
+ ( /52BF15DF h-bridge_CONN_2.54_1x5 P1 CTRL
+  ( 1 +5V )
+  ( 2 N-000022 )
+  ( 3 N-000031 )
+  ( 4 N-000011 )
+  ( 5 GND )
+ )
+ ( /52BF18A9 h-bridge_CONN_2.54_1x3 P2 SHUNT
+  ( 1 GND )
+  ( 2 N-000012 )
+  ( 3 N-000001 )
+ )
+ ( /52BEFAD2 h-bridge_CONN_2-of-3-screw-pins P3 POWER
+  ( 1 GND )
+  ( 2 N-000015 )
+ )
+ ( /52BEFAC9 h-bridge_CONN_2-of-3-screw-pins P4 MOTOR
+  ( 1 /MOT1 )
+  ( 2 /MOT2 )
+ )
+ ( /52BF04EE h-bridge_TO92 Q1 BC337-40
+  ( 1 N-000024 )
+  ( 2 N-000021 )
+  ( 3 GND )
+ )
+ ( /52BF05F1 h-bridge_TO220AB_vertical Q2 IRFB3806
+  ( 1 N-000026 )
+  ( 2 +36V )
+  ( 3 /MOT2 )
+ )
+ ( /52BF0614 h-bridge_TO220AB_vertical Q3 IRFB3806
+  ( 1 N-000002 )
+  ( 2 /MOT2 )
+  ( 3 /PGND )
+ )
+ ( /52BF0617 h-bridge_TO220AB_vertical Q4 IRFB3806
+  ( 1 N-000027 )
+  ( 2 +36V )
+  ( 3 /MOT1 )
+ )
+ ( /52BF0618 h-bridge_TO220AB_vertical Q5 IRFB3806
+  ( 1 N-000017 )
+  ( 2 /MOT1 )
+  ( 3 /PGND )
+ )
+ ( /52BF04C9 h-bridge_TO92 Q6 BC337-40
+  ( 1 N-000016 )
+  ( 2 N-000005 )
+  ( 3 GND )
+ )
+ ( /52BF1272 h-bridge_RESISTOR_0.25w_10mm R1 1K
+  ( 1 N-000019 )
+  ( 2 N-000011 )
+ )
+ ( /52BF1241 h-bridge_RESISTOR_0.25w_10mm R2 1K
+  ( 1 N-000018 )
+  ( 2 N-000022 )
+ )
+ ( /52BF1274 h-bridge_RESISTOR_0.25w_10mm R3 1K
+  ( 1 N-000020 )
+  ( 2 N-000024 )
+ )
+ ( /52BF1276 h-bridge_RESISTOR_0.25w_10mm R4 1K
+  ( 1 +5V )
+  ( 2 N-000024 )
+ )
+ ( /52BF1278 h-bridge_RESISTOR_0.25w_10mm R5 1K
+  ( 1 N-000022 )
+  ( 2 N-000021 )
+ )
+ ( /52BF12DA h-bridge_RESISTOR_0.25w_10mm R6 10R
+  ( 1 N-000026 )
+  ( 2 N-000008 )
+ )
+ ( /52BF12DC h-bridge_RESISTOR_0.25w_10mm R7 10R
+  ( 1 N-000002 )
+  ( 2 N-000032 )
+ )
+ ( /52BF12E0 h-bridge_RESISTOR_0.25w_10mm R8 1K
+  ( 1 N-000026 )
+  ( 2 /MOT2 )
+ )
+ ( /52BF12E2 h-bridge_RESISTOR_0.25w_10mm R9 1K
+  ( 1 N-000002 )
+  ( 2 /PGND )
+ )
+ ( /52BF12EC SM0603_Resistor R10 1K
+  ( 1 /PGND )
+  ( 2 N-000001 )
+ )
+ ( /52BF12EF SM0603_Resistor R11 1K
+  ( 1 GND )
+  ( 2 N-000012 )
+ )
+ ( /52BF12F4 h-bridge_RESISTOR_2w_20mm R12 0.01R_2W
+  ( 1 /PGND )
+  ( 2 GND )
+ )
+ ( /52BF12A3 h-bridge_RESISTOR_0.25w_10mm R13 1K
+  ( 1 N-000027 )
+  ( 2 /MOT1 )
+ )
+ ( /52BF12B5 h-bridge_RESISTOR_0.25w_10mm R14 1K
+  ( 1 N-000017 )
+  ( 2 /PGND )
+ )
+ ( /52BF12D1 h-bridge_RESISTOR_0.25w_10mm R15 10R
+  ( 1 N-000028 )
+  ( 2 N-000027 )
+ )
+ ( /52BF12BC h-bridge_RESISTOR_0.25w_10mm R16 10R
+  ( 1 N-000007 )
+  ( 2 N-000017 )
+ )
+ ( /52BF129B h-bridge_RESISTOR_0.25w_10mm R17 1K
+  ( 1 N-000005 )
+  ( 2 N-000031 )
+ )
+ ( /52BF129A h-bridge_RESISTOR_0.25w_10mm R18 1K
+  ( 1 N-000016 )
+  ( 2 +5V )
+ )
+ ( /52BF128A h-bridge_RESISTOR_0.25w_10mm R19 1K
+  ( 1 N-000031 )
+  ( 2 N-000023 )
+ )
+ ( /52BF1298 h-bridge_RESISTOR_0.25w_10mm R20 1K
+  ( 1 N-000016 )
+  ( 2 N-000009 )
+ )
+ ( /52BF1296 h-bridge_RESISTOR_0.25w_10mm R21 1K
+  ( 1 N-000011 )
+  ( 2 N-000010 )
+ )
+ ( /52E2B058 h-bridge_RESISTOR_0.25w_10mm R22 0R
+  ( 1 N-000030 )
+  ( 2 /MOT1 )
+ )
+ ( /52BF19A9 h-bridge_SO16L U1 IR2110S
+  ( 1 N-000032 )
+  ( 2 GND )
+  ( 3 +12V )
+  ( 6 /MOT2 )
+  ( 7 N-000003 )
+  ( 8 N-000008 )
+  ( 11 +5V )
+  ( 12 N-000018 )
+  ( 13 N-000019 )
+  ( 14 N-000020 )
+  ( 15 GND )
+ )
+ ( /52BED11C h-bridge_TO220AB_vertical U2 LM7812
+  ( 1 +36V )
+  ( 2 GND )
+  ( 3 +12V )
+ )
+ ( /52BF19B5 h-bridge_SO16L U3 IR2110S
+  ( 1 N-000007 )
+  ( 2 GND )
+  ( 3 +12V )
+  ( 6 N-000030 )
+  ( 7 N-000004 )
+  ( 8 N-000028 )
+  ( 11 +5V )
+  ( 12 N-000023 )
+  ( 13 N-000010 )
+  ( 14 N-000009 )
+  ( 15 GND )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ *SMD*
+ *CAPACITOR*
+$endlist
+$component C2
+ *SMD*
+ *CAPACITOR*
+$endlist
+$component C3
+ *CAPACITOR_POLAR*
+ *SMD*
+$endlist
+$component C4
+ *SMD*
+ *CAPACITOR*
+$endlist
+$component C5
+ *CAPACITOR_POLAR*
+ *SMD*
+$endlist
+$component C6
+ *SMD*
+ *CAPACITOR*
+$endlist
+$component C7
+ *SMD*
+ *CAPACITOR*
+$endlist
+$component C8
+ *CAPACITOR_POLAR*
+ *SMD*
+$endlist
+$component C9
+ *SMD*
+ *CAPACITOR*
+$endlist
+$component C10
+ *CAPACITOR_POLAR*
+ *SMD*
+$endlist
+$component C11
+ *SMD*
+ *CAPACITOR*
+$endlist
+$component C12
+ *SMD*
+ *CAPACITOR*
+$endlist
+$component C13
+ *SMD*
+ *CAPACITOR*
+$endlist
+$component C14
+ *SMD*
+ *CAPACITOR*
+$endlist
+$component C15
+ *CAPACITOR_POLAR*
+ *SMD*
+$endlist
+$component D1
+ *DIODE*
+$endlist
+$component D2
+ *DIODE*
+$endlist
+$component D3
+ *DIODE*
+$endlist
+$component D4
+ *DIODE*
+$endlist
+$component D5
+ *DIODE*
+$endlist
+$component D6
+ *DIODE*
+$endlist
+$component D7
+ *DIODE*
+$endlist
+$component D8
+ *DIODE*
+$endlist
+$component D9
+ *DIODE*
+$endlist
+$component D10
+ *DIODE*
+$endlist
+$component Q2
+ TO220*
+$endlist
+$component Q3
+ TO220*
+$endlist
+$component Q4
+ TO220*
+$endlist
+$component Q5
+ TO220*
+$endlist
+$component R1
+ *SMD*
+ *RESISTOR*
+$endlist
+$component R2
+ *SMD*
+ *RESISTOR*
+$endlist
+$component R3
+ *SMD*
+ *RESISTOR*
+$endlist
+$component R4
+ *SMD*
+ *RESISTOR*
+$endlist
+$component R5
+ *SMD*
+ *RESISTOR*
+$endlist
+$component R6
+ *SMD*
+ *RESISTOR*
+$endlist
+$component R7
+ *SMD*
+ *RESISTOR*
+$endlist
+$component R8
+ *SMD*
+ *RESISTOR*
+$endlist
+$component R9
+ *SMD*
+ *RESISTOR*
+$endlist
+$component R10
+ *SMD*
+ *RESISTOR*
+$endlist
+$component R11
+ *SMD*
+ *RESISTOR*
+$endlist
+$component R12
+ *SMD*
+ *RESISTOR*
+$endlist
+$component R13
+ *SMD*
+ *RESISTOR*
+$endlist
+$component R14
+ *SMD*
+ *RESISTOR*
+$endlist
+$component R15
+ *SMD*
+ *RESISTOR*
+$endlist
+$component R16
+ *SMD*
+ *RESISTOR*
+$endlist
+$component R17
+ *SMD*
+ *RESISTOR*
+$endlist
+$component R18
+ *SMD*
+ *RESISTOR*
+$endlist
+$component R19
+ *SMD*
+ *RESISTOR*
+$endlist
+$component R20
+ *SMD*
+ *RESISTOR*
+$endlist
+$component R21
+ *SMD*
+ *RESISTOR*
+$endlist
+$component R22
+ *SMD*
+ *RESISTOR*
+$endlist
+$endfootprintlist
+}

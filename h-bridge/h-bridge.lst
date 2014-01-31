@@ -1,0 +1,129 @@
+eeschema (2012-apr-16-27)-stable  >> Creation date: Sat 04 Jan 2014 09:41:07 AM EET
+
+#Cmp ( order = Reference )
+| C1         0.1U        
+| C2         0.1U        
+| C3         220U 16V    
+| C4         0.1U        
+| C5         100U 16V    
+| C6         0.1U        
+| C7         0.1U        
+| C8         220U 63V    
+| C9         0.1U        
+| C10        100U 16V    
+| C11        0.1U        
+| C12        0.1U        
+| C13        0.1U        
+| C14        0.1U        
+| C15        220U 16V    
+| D1         UF4007      
+| D2         UF4007      
+| D3         UF4007      
+| D4         MBR10100    
+| D5         MBR10100    
+| D6         MBR10100    
+| D7         MBR10100    
+| D8         UF4007      
+| D9         UF4007      
+| D10        UF4007      
+| F1         FUSE        
+| P1         CTRL        
+| P2         SHUNT       
+| P3         POWER       
+| P4         MOTOR       
+| Q1         BC337-40    
+| Q2         IRFB3806    
+| Q3         IRFB3806    
+| Q4         IRFB3806    
+| Q5         IRFB3806    
+| Q6         BC337-40    
+| R1         1K          
+| R2         1K          
+| R3         1K          
+| R4         1K          
+| R5         1K          
+| R6         10R         
+| R7         10R         
+| R8         1K          
+| R9         1K          
+| R10        1K          
+| R11        1K          
+| R12        0.01R 2W    
+| R13        1K          
+| R14        1K          
+| R15        10R         
+| R16        10R         
+| R17        1K          
+| R18        1K          
+| R19        1K          
+| R20        1K          
+| R21        1K          
+| U1         IR2110S     
+| U2         LM7812      
+| U3         IR2110S     
+#End Cmp
+
+#Cmp ( order = Value )
+| 0.01R 2W     R12       
+| 0.1U         C1        
+| 0.1U         C2        
+| 0.1U         C4        
+| 0.1U         C6        
+| 0.1U         C7        
+| 0.1U         C9        
+| 0.1U         C11       
+| 0.1U         C12       
+| 0.1U         C13       
+| 0.1U         C14       
+| 100U 16V     C5        
+| 100U 16V     C10       
+| 10R          R6        
+| 10R          R7        
+| 10R          R15       
+| 10R          R16       
+| 1K           R1        
+| 1K           R2        
+| 1K           R3        
+| 1K           R4        
+| 1K           R5        
+| 1K           R8        
+| 1K           R9        
+| 1K           R10       
+| 1K           R11       
+| 1K           R13       
+| 1K           R14       
+| 1K           R17       
+| 1K           R18       
+| 1K           R19       
+| 1K           R20       
+| 1K           R21       
+| 220U 16V     C3        
+| 220U 16V     C15       
+| 220U 63V     C8        
+| BC337-40     Q1        
+| BC337-40     Q6        
+| CTRL         P1        
+| FUSE         F1        
+| IR2110S      U1        
+| IR2110S      U3        
+| IRFB3806     Q2        
+| IRFB3806     Q3        
+| IRFB3806     Q4        
+| IRFB3806     Q5        
+| LM7812       U2        
+| MBR10100     D4        
+| MBR10100     D5        
+| MBR10100     D6        
+| MBR10100     D7        
+| MOTOR        P4        
+| POWER        P3        
+| SHUNT        P2        
+| UF4007       D1        
+| UF4007       D2        
+| UF4007       D3        
+| UF4007       D8        
+| UF4007       D9        
+| UF4007       D10       
+#End Cmp
+
+#End List
