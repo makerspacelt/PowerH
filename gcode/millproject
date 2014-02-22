@@ -1,0 +1,146 @@
+#==========================================================
+# pcb2gcode project file
+#==========================================================
+
+# Engrave the front side according to the given file
+# (typically used in two-sided boards).
+#front=filename.gbr
+
+# Engrave the back side according to the given file.
+back=../gerber/h-bridge-Back.gbl
+
+# Cut out the board to the shape exposed in the given file.
+# Typically, there is only a polygon in this gerber file.
+# Alternatively, this file can contain a closed line chain
+# (see --fill-outline).
+outline=../gerber/h-bridge-PCB_Edges.gbr
+
+# Convert the given file (containing drill sizes and positions) to G-code.
+# .cnc ?
+drill=../gerber/h-bridge.drl
+
+# For every option --x that takes a  filename,  there  is  an  --x-output
+# option  that  specifies where the resulting G-code is saved, defaulting
+# to x.gbr. Instead of giving  each  output  file  name,  the  --basename
+# option  can  be  used;  the  base  name will be used as a prefix to the
+# default output file names.
+#basename=outfile
+#front-output=front-out.nc
+#back-output=back-out.nc
+#outline-output=outline-out.nc
+#dril-output=drill-out.nc
+
+
+#==========================================================
+#
+# The parameters that define engraving are:
+#
+metric=1
+
+# Z-coordinate at which engraving happens
+zwork=-0.15
+
+# Z-coordinate for movements between engraving steps
+zsafe=1.0
+
+# feed rate at which engraving takes place (horizontal speed)
+mill-feed=200
+
+# spindle speed during engraving (rounds per minute)
+mill-speed=20000
+
+# distance by which the tool movement will be outset from the
+# contours in the gerber file to be engraved
+# (usually half the isolation width)
+# If  this  distance  can't  be satisfied because copper areas
+# are too close, a warning will be printed and the line will be
+# drawn between the areas. This behavior can be used to get
+# voronoi-style (flood-filling) areas; simply set the offset to
+# a large value (like 1 inch).
+offset=0.3
+
+# number of additional isolation passes
+# For each extra pass, engraving is repeated with the offset width
+# increased by half its original value, creating wider isolation areas.
+#extra-passes=1
+
+ 
+#==========================================================
+#
+# The parameters that define outline cutting are:
+#
+
+# amount by half of which the tool path is outset from the shape
+# in the outline file
+cutter-diameter=0.3
+
+# Z-coordinate indicating where the outline cutting ends
+zcut=-0.15
+
+# feed rate at which outline cutting takes place (horizontal speed)
+cut-feed=200
+
+# spindle speed during outline cutting (rounds per minute)
+cut-speed=20000
+
+# maximum Z distance that is cut away in a single pass
+# (positive value; if less then zcut's value, there will
+# be more than one pass)
+cut-infeed=0.2
+
+# If --fill-outline is given, it is assumed that the outline file
+# contains not a polygon but a closed chain of lines. The board will
+# be cut along the centres of these lines.
+fill-outline=1
+
+# thickness of the lines that form the outline (if --fill-outline is given)
+outline-width=0.3
+
+
+#==========================================================
+#
+# Drilling takes another set of options:
+#
+
+# Z value down to which will be drilled
+zdrill=-0.2
+
+# Z-coordinate for movements with the drill head
+# (won't change tools in this project)
+zchange=1
+
+# feed rate for drilling (vertical speed)
+drill-feed=200
+
+# spindle speed during drilling (rounds per minute)
+drill-speed=20000
+
+# If --milldrill is given, the milling head will be used to drill
+# the holes in the PCB. Holes up to the size of the milling head
+# will be drilled regularly (possibly creating a bigger hole than
+# intended), the other holes are created by moving the head in
+# circles using the feed and infeed parameters used in cutting.
+#milldrill=1
+
+# use the coordinates of the front side for drilling instead of the
+# coordinates of the back side
+#drill-front
+
+
+#==========================================================
+#
+# These options govern the general behavior of pcb2gcode:
+#
+
+# resolution used internally (defaults to 1000)
+#dpi=25.4
+
+# mirror operations on the back side along the Y axis instead of the
+# board center, which is the default
+#mirror-absolute=1
+
+# export the resulting contours to an SVG (scalable vector graphics) file
+svg=contours.svg
+
+
+

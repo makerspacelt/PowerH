@@ -1,0 +1,20 @@
+<openscam>
+  <!-- NC Files -->
+  <nc-files>
+    engrave.ngc drill.ngc
+  </nc-files>
+
+  <!-- Renderer -->
+  <resolution v='0.33'/>
+  <resolution-mode v='MANUAL'/>
+
+  <!-- Workpiece -->
+  <automatic-workpiece v='false'/>
+  <workpiece-max v='(64.0374,129.31,0.5)'/>
+  <workpiece-min v='(-4.86335,-8.0428,-1.6)'/>
+
+  <tool_table>
+    <tool length='3.175' number='1' radius='1.5875' shape='CONICAL' units='MM'/>
+    <tool length='10' number='2' radius='0.55' shape='CYLINDRICAL' units='MM'/>
+  </tool_table>
+</openscam>
